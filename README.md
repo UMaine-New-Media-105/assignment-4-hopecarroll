@@ -6,4 +6,7 @@ be able to make it easier to put many different types of stars in my code. My st
 Link to code: https://editor.p5js.org/hopecarroll/sketches/f0IOROnq4
 
 Challenge 4, assignment 2: Using the same shapes from my previous code I put a nested loop in the draw funcion which created columns and rows for my stars to create a two-dimensional pattern. I used global variables for hieght and width of the columns and rows to make it to the shapes covered the whole canvas. 
-Link ot code: https://editor.p5js.org/hopecarroll/sketches/YtEZUNjHUW
+Link to code: https://editor.p5js.org/hopecarroll/sketches/YtEZUNjHUW
+
+Challenge 4, assignment 3: I first duplicted my sketch from challenge 2 to have the same stars from before. But in order to create a more random and interesting pattern I added ellipses which show up in random locations and with random colors when I press the play button. I did this by using the random function and creating an array with colors as the strings. Everytime the play button is pressed the code picks a random color from the strings for each ellipse. They are also placed in different locations using the random (tileWidth) and (tileHeight) commands to place them in random locations amoung each tile. I then added lines to create a more ellaborate pattern. The lines are also randomly changed when the the play button is pressed. This is done by having 2 seperate arrays assigned to the end points of the arrays. In the drawn function, the line is called and each end point of the line is called with a random function. 
+Link to code: https://editor.p5js.org/hopecarroll/sketches/38sWxicpZ
